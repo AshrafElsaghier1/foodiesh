@@ -13,7 +13,11 @@ const ReceipsCard = ({ receip }) => {
         />
       </div>
       <div className="food-info">
-        <img src={authorImg} alt=" " className="img-auther" />
+        <img
+          src={`${process.env.PUBLIC_URL}${authorImg}`}
+          alt=" "
+          className="img-auther"
+        />
         <h4 className="title">{title}</h4>
         <p className="info">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
