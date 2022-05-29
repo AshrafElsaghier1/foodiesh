@@ -1,0 +1,19 @@
+.footer {
+    background-color: #0f0f0f;
+    color: #ffffffd3;
+    padding-block: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+    .footer-section {
+      p {
+        margin-bottom: 0.5em;
+      }
+      p.title {
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-bottom: 1em;
+      }
+    }
+  }
+  

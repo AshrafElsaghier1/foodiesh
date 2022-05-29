@@ -1,0 +1,98 @@
+.receips.section {
+  display: block;
+  .receips-search {
+    margin-bottom: 1.6em;
+    .prev-search-words {
+      margin: 1em 0;
+      .search-word {
+        display: inline-block;
+        padding: 0.2em 1em;
+        background-color: var(--primary-color);
+        color: #fff;
+        margin-right: 1em;
+        border-radius: 35px;
+        margin-bottom: 0.7em;
+        box-shadow: 0 3px 6px var(--shadow-color);
+        animation: getAnimationDuration(0.5s) slideInRight forwards;
+        opacity: 0;
+        transform: translateX(100%);
+      }
+    }
+    .search-box {
+      text-align: right;
+      height: 30px;
+      input,
+      .submit-btn {
+        height: 100%;
+        padding: 0.5em 0.7em;
+        border: 0.5px solid #ccc;
+      }
+      input {
+        border-right: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        outline: 0;
+      }
+      .submit-btn {
+        border-left: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: var(--primary-color);
+        color: #fff;
+
+        cursor: pointer;
+      }
+    }
+  }
+  .receips-container {
+    display: grid;
+    gap: 0.8em;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    .single-card {
+      box-shadow: 0 5px 10px var(--shadow-color);
+      border-radius: 0 0 8px 8px;
+
+      .food-img {
+        max-width: 100%;
+        border-radius: 8px 8px 0 0;
+        object-fit: cover;
+        box-shadow: 0 5px 10px var(--shadow-color);
+        max-height: 200px;
+        min-height: 200px;
+        min-width: 100%;
+      }
+      .food-info {
+        padding-inline: 1.4vw;
+        padding-bottom: 1.4em;
+        .img-auther {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          border: 2px solid var(--bg-color);
+          margin-top: -60px;
+          box-shadow: 0 5px 7px var(--shadow-color);
+        }
+        .title {
+          font-size: 1.1em;
+          color: var(--text-color);
+          margin-bottom: 0.5em;
+        }
+        .info {
+          font-size: 0.8em;
+          color: var(--text-light);
+          margin-bottom: 0.5em;
+        }
+        .view-btn {
+          border: 0;
+          outline: 0;
+          color: var(--primary-color);
+          background-color: transparent;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          cursor: pointer;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
