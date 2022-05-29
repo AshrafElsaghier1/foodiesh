@@ -8,7 +8,7 @@ const Navbar = () => {
   const links = [
     {
       name: "Home",
-      path: "/foodiesh",
+      path: "/",
       icon: faHome,
     },
     {
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar container">
-        <Link to="/foodiesh" className="logo">
+        <Link to="/" className="logo">
           F<span>oo</span>diesHub
         </Link>
         <div className="nav-links">
