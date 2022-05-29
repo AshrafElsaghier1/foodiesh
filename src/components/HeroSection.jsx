@@ -2,15 +2,15 @@ import CustomImg from "./CustomImg";
 
 const HeroSection = () => {
   const imgs = [
-    "/img/01.jpg",
-    "/img/02.jpg",
-    "/img/09.jpg",
-    "/img/04.jpg",
-    "/img/05.jpg",
-    "/img/06.jpg",
-    "/img/12.jpg",
-    "/img/08.jpg",
-    "/img/10.jpg",
+    "/foodiesh/img/01.jpg",
+    "/foodiesh/img/02.jpg",
+    "/foodiesh/img/09.jpg",
+    "/foodiesh/img/04.jpg",
+    "/foodiesh/img/05.jpg",
+    "/foodiesh/img/06.jpg",
+    "/foodiesh/img/12.jpg",
+    "/foodiesh/img/08.jpg",
+    "/foodiesh/img/10.jpg",
   ];
 
   return (
