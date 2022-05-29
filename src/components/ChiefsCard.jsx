@@ -9,7 +9,7 @@ const ChiefsCard = ({ chiefs }) => {
   return (
     <div className="single-top-chief">
       <div className="img-container ">
-        <img src={img} alt={name} />
+        <img  src={`${process.env.PUBLIC_URL}${img}`} alt={name} />
       </div>
       <div className="chief-info ">
         <h3> {name}</h3>

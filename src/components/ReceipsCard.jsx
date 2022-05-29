@@ -6,7 +6,11 @@ const ReceipsCard = ({ receip }) => {
   return (
     <div className="single-card">
       <div className="header-img">
-        <img src={image} alt="" className="food-img" />
+        <img
+          src={`${process.env.PUBLIC_URL}${image}`}
+          alt=""
+          className="food-img"
+        />
       </div>
       <div className="food-info">
         <img src={authorImg} alt=" " className="img-auther" />
