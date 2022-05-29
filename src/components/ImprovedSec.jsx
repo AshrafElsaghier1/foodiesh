@@ -12,7 +12,7 @@ const ImprovedSec = () => {
   return (
     <section className="section improved-sec">
       <div className="col improved-img-container pr">
-        <img src="/img/15.jpg" alt="img" />
+        <img src={`${process.env.PUBLIC_URL}/img/15.jpg`}  alt="img" />
       </div>
       <div className="col pl">
         <h1 className="title">Improve your culinary skills</h1>
