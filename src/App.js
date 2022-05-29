@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <main className="main container">
           <Routes >
-            <Route path="/foodiesh" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/receips" element={<Receips />} />
             <Route path="/sittings" element={<Sittings />} />
           </Routes>

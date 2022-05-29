@@ -4,19 +4,19 @@ const Chiefs = () => {
   const chiefsList = [
     {
       name: "Juan Carlos",
-      img: "/img/20.jpg",
+      img: "./img/20.jpg",
       recipesCount: "10",
       cuisine: "Mexican",
     },
     {
       name: "John Doe",
-      img: "/img/21.jpg",
+      img: "./img/21.jpg",
       recipesCount: "05",
       cuisine: "Japanese",
     },
     {
       name: "Erich Maria",
-      img: "/img/22.jpg",
+      img: "./img/22.jpg",
       recipesCount: "13",
       cuisine: "Italian",
     },
